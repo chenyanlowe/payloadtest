@@ -1061,24 +1061,26 @@ The demo implements the function of checking the functionality of the endpoint.<
 <h2 id="classes-information">Classes Information<a class="headerlink" href="#classes-information" title="Permanent link"></a></h2>
 <h3 id="payloadtestfactory">PayloadTestFactory<a class="headerlink" href="#payloadtestfactory" title="Permanent link"></a></h3>
 <div class="codehilite"><pre>TestNg factory class. It will create a suite of the cases according to the json array which it gets from the &quot;Payload.json&quot;.
-
-- createInstances: Create test instances.
-- getBankData: Transfer the date to a Bank type array.
-- convertToPlatformPath: Convert the file path to fit the different os.
 </pre></div>
 
 
+<ul>
+<li>createInstances: Create test instances.</li>
+<li>getBankData: Transfer the date to a Bank type array.</li>
+<li>convertToPlatformPath: Convert the file path to fit the different os. </li>
+</ul>
 <h3 id="payloadtest_1">PayloadTest<a class="headerlink" href="#payloadtest_1" title="Permanent link"></a></h3>
 <div class="codehilite"><pre>Template testing file for the test generating.
-
-- getHttpConnection: Get connection with the endpoint.
-- payloadTest: Send the post request and get the response message.
-- closeHttpConnection: close connection after test.
-- fieldsCheck: Check the bank data and give a expecting code to compare with the returning from the server.
-- errorMessage: ErrorMessage accords to the expecting code.
 </pre></div>
 
 
+<ul>
+<li>getHttpConnection: Get connection with the endpoint.</li>
+<li>payloadTest: Send the post request and get the response message.</li>
+<li>closeHttpConnection: close connection after test.</li>
+<li>fieldsCheck: Check the bank data and give a expecting code to compare with the returning from the server.</li>
+<li>errorMessage: ErrorMessage accords to the expecting code.</li>
+</ul>
 <h3 id="bank">Bank<a class="headerlink" href="#bank" title="Permanent link"></a></h3>
 <div class="codehilite"><pre>Bank instance class for the json type data saving.
 </pre></div>
@@ -1101,5 +1103,15 @@ The demo implements the function of checking the functionality of the endpoint.<
 <li>Https: <a href="https://github.com/chenyanlowe/payloadtest.git">https://github.com/chenyanlowe/payloadtest.git</a></li>
 </ol>
 <h2 id="to-test">To test<a class="headerlink" href="#to-test" title="Permanent link"></a></h2>
-<p>teminal: java -jar payloadtest.jar run.xml
-eclipse: run run.xml as testng</p></article></body></html>
+<ul>
+<li>teminal: java -jar target/payloadtest-1.jar run.xml</li>
+<li>eclipse: run run.xml as testng</li>
+</ul>
+<h2 id="test-report">Test Report<a class="headerlink" href="#test-report" title="Permanent link"></a></h2>
+<p>Report is under test-output/emailable-report.html</p>
+<h2 id="others">Others<a class="headerlink" href="#others" title="Permanent link"></a></h2>
+<ul>
+<li>You could copy target/payloadtest-1.jar, run.xml and sources folder to your own directory. Run with java -jar payloadtest-1.jar run.xml</li>
+<li>You could add more cases into the sources/Payload.json with the same format.</li>
+<li>The output will be saved into the test-output folder. Every new run will override the elder report.</li>
+</ul></article></body></html>
