@@ -1,6 +1,6 @@
 # payloadtest
 This demo is for the **QA Automation Code Challenge** from Airwallex
-The demo implements the function of checking the functionality of the endpoint "http://preview.airwallex.com:30001/bank" 
+The demo implements the function of checking the functionality of the endpoint.
 
 ## Classes Information
 
