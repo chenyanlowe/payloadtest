@@ -1,0 +1,4 @@
+test/PayloadTest.class
+test/helper/Bank.class
+test/PayloadTestFactory.class
+doMain.class

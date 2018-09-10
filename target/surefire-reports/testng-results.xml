@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Payload_Test" duration-ms="10314" started-at="2018-09-10T12:32:35Z" finished-at="2018-09-10T12:32:45Z">
+    <groups>
+    </groups>
+    <test name="TestMethods" duration-ms="10314" started-at="2018-09-10T12:32:35Z" finished-at="2018-09-10T12:32:45Z">
+      <class name="test.PayloadTest">
+        <test-method status="PASS" signature="getHttpConnection()[pri:0, instance:test.PayloadTest@7cd62f43]" name="getHttpConnection" is-config="true" duration-ms="6537" started-at="2018-09-10T12:32:35Z" finished-at="2018-09-10T12:32:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getHttpConnection -->
+        <test-method status="PASS" signature="payloadTest()[pri:0, instance:test.PayloadTest@604ed9f0]" name="payloadTest" duration-ms="344" started-at="2018-09-10T12:32:41Z" finished-at="2018-09-10T12:32:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- payloadTest -->
+        <test-method status="PASS" signature="closeHttpConnection()[pri:0, instance:test.PayloadTest@7cd62f43]" name="closeHttpConnection" is-config="true" duration-ms="1" started-at="2018-09-10T12:32:42Z" finished-at="2018-09-10T12:32:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeHttpConnection -->
+        <test-method status="PASS" signature="getHttpConnection()[pri:0, instance:test.PayloadTest@7cd62f43]" name="getHttpConnection" is-config="true" duration-ms="352" started-at="2018-09-10T12:32:42Z" finished-at="2018-09-10T12:32:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getHttpConnection -->
+        <test-method status="PASS" signature="payloadTest()[pri:0, instance:test.PayloadTest@685cb137]" name="payloadTest" duration-ms="361" started-at="2018-09-10T12:32:42Z" finished-at="2018-09-10T12:32:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- payloadTest -->
+        <test-method status="PASS" signature="closeHttpConnection()[pri:0, instance:test.PayloadTest@7cd62f43]" name="closeHttpConnection" is-config="true" duration-ms="0" started-at="2018-09-10T12:32:43Z" finished-at="2018-09-10T12:32:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeHttpConnection -->
+        <test-method status="PASS" signature="getHttpConnection()[pri:0, instance:test.PayloadTest@7cd62f43]" name="getHttpConnection" is-config="true" duration-ms="337" started-at="2018-09-10T12:32:43Z" finished-at="2018-09-10T12:32:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getHttpConnection -->
+        <test-method status="PASS" signature="payloadTest()[pri:0, instance:test.PayloadTest@6a41eaa2]" name="payloadTest" duration-ms="341" started-at="2018-09-10T12:32:43Z" finished-at="2018-09-10T12:32:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- payloadTest -->
+        <test-method status="PASS" signature="closeHttpConnection()[pri:0, instance:test.PayloadTest@7cd62f43]" name="closeHttpConnection" is-config="true" duration-ms="1" started-at="2018-09-10T12:32:43Z" finished-at="2018-09-10T12:32:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeHttpConnection -->
+        <test-method status="PASS" signature="getHttpConnection()[pri:0, instance:test.PayloadTest@7cd62f43]" name="getHttpConnection" is-config="true" duration-ms="338" started-at="2018-09-10T12:32:43Z" finished-at="2018-09-10T12:32:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getHttpConnection -->
+        <test-method status="PASS" signature="payloadTest()[pri:0, instance:test.PayloadTest@6a4f787b]" name="payloadTest" duration-ms="340" started-at="2018-09-10T12:32:44Z" finished-at="2018-09-10T12:32:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- payloadTest -->
+        <test-method status="PASS" signature="closeHttpConnection()[pri:0, instance:test.PayloadTest@7cd62f43]" name="closeHttpConnection" is-config="true" duration-ms="1" started-at="2018-09-10T12:32:44Z" finished-at="2018-09-10T12:32:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeHttpConnection -->
+        <test-method status="PASS" signature="getHttpConnection()[pri:0, instance:test.PayloadTest@7cd62f43]" name="getHttpConnection" is-config="true" duration-ms="338" started-at="2018-09-10T12:32:44Z" finished-at="2018-09-10T12:32:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getHttpConnection -->
+        <test-method status="PASS" signature="payloadTest()[pri:0, instance:test.PayloadTest@7cd62f43]" name="payloadTest" duration-ms="339" started-at="2018-09-10T12:32:44Z" finished-at="2018-09-10T12:32:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- payloadTest -->
+        <test-method status="PASS" signature="closeHttpConnection()[pri:0, instance:test.PayloadTest@7cd62f43]" name="closeHttpConnection" is-config="true" duration-ms="1" started-at="2018-09-10T12:32:45Z" finished-at="2018-09-10T12:32:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeHttpConnection -->
+        <test-method status="PASS" signature="getHttpConnection()[pri:0, instance:test.PayloadTest@7cd62f43]" name="getHttpConnection" is-config="true" duration-ms="335" started-at="2018-09-10T12:32:45Z" finished-at="2018-09-10T12:32:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getHttpConnection -->
+        <test-method status="PASS" signature="payloadTest()[pri:0, instance:test.PayloadTest@91161c7]" name="payloadTest" duration-ms="336" started-at="2018-09-10T12:32:45Z" finished-at="2018-09-10T12:32:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- payloadTest -->
+        <test-method status="PASS" signature="closeHttpConnection()[pri:0, instance:test.PayloadTest@7cd62f43]" name="closeHttpConnection" is-config="true" duration-ms="1" started-at="2018-09-10T12:32:45Z" finished-at="2018-09-10T12:32:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeHttpConnection -->
+      </class> <!-- test.PayloadTest -->
+    </test> <!-- TestMethods -->
+  </suite> <!-- Payload_Test -->
+</testng-results>
