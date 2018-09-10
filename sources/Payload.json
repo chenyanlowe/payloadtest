@@ -1,0 +1,50 @@
+[
+{
+	"payment_method": "SWIFT",
+	"bank_country_code": "US",
+	"account_name": "John Smith",
+	"account_number": "123",
+	"swift_code": "ICBCUSBJ",
+	"aba": "11122233A"
+},
+{
+	"payment_method": "SWIFT",
+	"bank_country_code": "US",
+	"account_name": "John Smith",
+	"account_number": "",
+	"swift_code": "ICBCUSBJ",
+	"aba": "11122233A"
+}, 
+{
+	"payment_method": "LOCAL",
+	"bank_country_code": "US",
+	"account_name": "John Smith",
+	"account_number": "123",
+	"swift_code": "ICBCUSBJ",
+	"aba": "11122233A"
+},
+{
+	"payment_method": "",
+	"bank_country_code": "US",
+	"account_name": "John Smith",
+	"account_number": "123",
+	"swift_code": "ICBCUSBJ",
+	"aba": "11122233A"
+},
+{
+	"payment_method": "SWIFT",
+	"bank_country_code": "CN",
+	"account_name": "John Smith",
+	"account_number": "123",
+	"swift_code": "ICBCUSBJ",
+	"aba": "11122233A"
+},
+{
+	"payment_method": "SWIFT",
+	"bank_country_code": "US",
+	"account_name": "John Smith",
+	"account_number": "123",
+	"swift_code": "ICBCUSBJ11",
+	"aba": "11122233A"
+}
+]
